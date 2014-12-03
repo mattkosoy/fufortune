@@ -40,6 +40,8 @@ img { -ms-interpolation-mode: bicubic; }
 strong { font-weight: bold; }
 em { font-style: italic; }
 
+.hidden{ display: none; }
+
 /* Clearfix: */
 .group:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
 * html .group { height: 1%; } /* IE6 */

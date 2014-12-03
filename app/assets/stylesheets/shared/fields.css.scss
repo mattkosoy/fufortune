@@ -7,9 +7,9 @@ input {
 }
 
 div.field {
-  input[type="text"], input[type="email"], textarea {
-    background: #414042;
-    border: 1px solid #ccc;
+  input[type="text"], input[type="email"], input[type="password"], textarea {
+    background: #ccc;
+    border: 1px solid #999;
     color: #333;
     @include border-radius(3px);
     display: block;
@@ -67,24 +67,21 @@ div.field {
 
     a { float: right; display: block; font-size: 12px; line-height: 1; margin-top: 4px; }
   }
-
-  &.checkbox-container {
-    margin-bottom: 2px;
-
-    input { @include opacity(0); display: block; width: 1px; height: 1px; top: 0; left: 0; position: absolute; }
-    input:checked + label {
-      &:before { display: none; }
-      &:after { display: block; width:20px; height:20px; }
+ 
+  &.remember.me{
+    float: left;
+    clear: both;
+    width: 100%;
+    input[type="checkbox"]{
+      float: left;
     }
-
-    label {
-      font-weight: normal;  cursor: pointer; padding-right: 30px; position: relative;
-
-      &:before, &:after { position: absolute; top: 3px; right: 0; }
-      &:before { display: block; }
-      &:after { display: none; }
+    label { 
+      float: left; 
+      margin: 0 0 0 0.5em;
     }
   }
+
+  
 
   &.select-container {
     &.focused {
@@ -114,7 +111,6 @@ div.field {
     }
   }
 
-  ul.chzn-choices { padding: 7px 36px 7px 12px; }
 
   &.full { margin-right: 0; width: 100%; }
   &.xtiny { width: 68px; }
@@ -148,10 +144,6 @@ div.field {
     button { margin: 90px auto 0; display: block; }
   }
 
-  // Adjust the triangle alignment for chzn-single fields
-  .chzn-container-single .chzn-single div {
-    width: 22px;
-  }
 
   div.checks {
     padding-top: 7px;
@@ -170,59 +162,9 @@ div.field {
       div.checkbox, div.radio { float: left; margin: 2px 4px 0 0; }
     }
   }
-
-  // &.icon {
-  //  input, textarea, select.default-select, ul.chzn-choices, a.chzn-single { padding-left: 57px; }
-
-  //  &.textarea, &.chzn {
-  //    &:before, &:after { bottom: auto; }
-  //    &:before { top: 15px; }
-  //    &:after { top: 12px; }
-
-  //    &.labeled {
-  //      &:before { top: 41px; }
-  //      &:after { top: 38px; }
-  //    }
-  //  }
-
-  //  &:before, &:after { content: ""; display: block; position: absolute; z-index: 2; }
-  //  &:before {
-  //    width: 24px; height: 24px; background: image-url("form-icons.png"); bottom: 15px; left: 14px;
-
-  //    @include retina-media {
-  //      background: image-url("form-icons@2x.png"); background-size: 48px 216px;
-  //    }
-  //  }
-  //  &:after { height: 30px; width: 2px; border-left: 2px solid #CCD8DF; bottom: 12px; left: 48px; }
-  //  &.focused:after { border-left-color: #6FBDC3; }
-
-  //  &.briefcase:before { background-position: 0 0; }
-  //  &.envelope:before { background-position: 0 -24px; }
-  //  &.lock:before { background-position: 0 -48px; }
-  //  &.money:before { background-position: 0 -72px; }
-  //  &.pencil-mouse:before { background-position: 0 -96px; }
-  //  &.pencil:before { background-position: 0 -120px; }
-  //  &.person:before { background-position: 0 -144px; }
-  //  &.calendar:before { background-position: 0 -168px; }
-  //  &.calendar-check:before { background-position: 0 -192px; }
-
-  //  &.focused {
-  //    &.briefcase:before { background-position: -24px 0; }
-  //    &.envelope:before { background-position: -24px -24px; }
-  //    &.lock:before { background-position: -24px -48px; }
-  //    &.money:before { background-position: -24px -72px; }
-  //    &.pencil-mouse:before { background-position: -24px -96px; }
-  //    &.pencil:before { background-position: -24px -120px; }
-  //    &.person:before { background-position: -24px -144px; }
-  //    &.calendar:before { background-position: -24px -168px; }
-  //    &.calendar-check:before { background-position: -24px -192px; }
-  //  }
-  // }
 }
 
 div.actions {
-  padding: 10px 10px 0;
-
   @include two-columns {
     padding: 10px 0 0;
   }
@@ -237,13 +179,3 @@ div.actions {
   }
 }
 
- .deleteacct{
-    text-align:center;
-    margin:40px 0 0 0;
-    a{ 
-      color:#555;
-      &:hover{
-        color:#ddd;
-      }
-    }
-  }
