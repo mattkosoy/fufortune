@@ -1,5 +1,7 @@
 <%= form_for :fortune, url: fortunes_path do |f| %>
+   
   <div class="field">
+    <%= f.hidden_field(:user_id, value: current_user.id) %>
     <%= f.label :copy %><br>
     <%= f.text_area(:copy, cols: 100, rows: 40) %>
   </div>
