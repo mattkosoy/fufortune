@@ -1,0 +1,40 @@
+.logged.in{
+	left: 0;
+  padding: 20px;
+	position: absolute;
+	top: 0;
+	z-index: 9999;
+}
+
+
+.wrapper.row{
+	ul.my.fortunes{
+	  float: left;
+	  width: 100%; 
+	  clear: both;
+	  li{
+	    list-style-type: none;
+	    width: 100%;
+	    clear: both;
+	    a{
+	      float: left;
+	    }
+	    form{
+	      float: left;
+	      input[type="submit"]{
+	        background: transparent;
+	        color: #900;
+	        cursor: pointer;
+	        font-family: 'Open Sans', sans-serif;
+	        font-size: 15px;
+	        margin: 0 0 0 10px;
+	        padding: 0;
+	        &:hover{
+	           color: #F11;
+	        }
+
+	      }
+	    }
+	  }
+	}
+}

@@ -1,3 +1,5 @@
+@import 'mixins';
+
 .fortune{
   display: block;
   height: 100%;
@@ -6,16 +8,29 @@
   position: relative;
   top: 50%;
   width: 100%;
-
+  @include one-column{
+    width: 320px;
+    min-height: 500px;
+    min-width: 320px;
+    border: 1px solid #f11;
+  }
   .cookie{
-	  background: url('http://mattkosoy.com/fortune_cookie.jpg') no-repeat 0 0;
+	  background: url('https://dl.dropboxusercontent.com/u/1682449/fortune_cookie.jpg') no-repeat 0 0;
     background-size: contain;
-    height: 768px;
+    height: 559px;
     left: 50%;
-    margin: 0 0 0 -512px;
+    margin: -280px 0 0 -512px;
     position: absolute;
-    top: 0;
+    top: 50%;
     width: 1024px;
+    @include one-column{
+      margin: 0;
+      width: 320px;
+      height: 190px;
+      left: 0;
+      top: 0;
+      background-size: cover;
+    }
   }
 
   .copy{
@@ -23,14 +38,18 @@
     min-width: 350px;
     position: absolute;
     text-align: center;
-    top: 34%;
+    top: 40%;
+    @include one-column{
+      width: 320px;
+      left: 0;
+      top: 0;
+    }
     em{
       font-style: normal;
       color: red;
       position: relative;
       text-transform: uppercase;
       top: -2px;
-
     }
     .face{
       position: relative;

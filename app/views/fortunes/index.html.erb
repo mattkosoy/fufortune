@@ -1,1 +1,13 @@
 <%= render "shared/fortunecookie", :fortune => @fortune %>
+
+
+<% if(current_user) %>
+<div class="wrapper row">
+<h2>List of fortunes</h2>
+<ul class="my fortunes">  	
+<%  	@fortunes.each do | f | %>
+  <li><%= link_to f.copy, edit_fortune_path(f) %> <%= button_to 'delete', {:controller => :fortunes, :action => 'destroy', :id => f.id }, :method => :delete %></li>
+<% end %>
+</ul>
+</div>
+<%  end  %>

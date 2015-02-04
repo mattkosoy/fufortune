@@ -4,6 +4,9 @@ class FortunesController < ApplicationController
 
   def index
     @fortune = Fortune.limit(1).order("RANDOM()").first
+    if user_signed_in?
+      @fortunes = Fortune.where(user_id: current_user.id);
+    end
   end
   
   def new
@@ -21,6 +24,7 @@ class FortunesController < ApplicationController
   
   def edit
     @fortune = Fortune.find params[:id]
+    render :action => 'new'
   end
 
   def update
