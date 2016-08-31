@@ -24,7 +24,13 @@ div.field {
     }
   }
 
-  input { padding: 7px; }
+  input { 
+    padding: 12px; 
+    font-size: 80%;
+    &:hover{
+
+    }
+  }
 
   &.short-textarea {
     textarea { height: 150px; }
