@@ -1,0 +1,1742 @@
+@charset "UTF-8";
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+ */
+/*!
+
+  BASSCSS
+
+  Next-level CSS toolkit - basscss.com
+
+  Made with love by Jxnblk - ©2014 Brent Jackson
+  MIT License http://opensource.org/licenses/MIT
+
+*/
+/* line 2, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_base-grid.scss */
+.col {
+  float: left;
+  box-sizing: border-box;
+}
+
+/* line 7, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_base-grid.scss */
+.col-right {
+  float: right;
+  box-sizing: border-box;
+}
+
+/* line 12, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_base-grid.scss */
+.col-1 {
+  width: calc(1/12 * 100%);
+}
+
+/* line 16, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_base-grid.scss */
+.col-2 {
+  width: calc(2/12 * 100%);
+}
+
+/* line 20, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_base-grid.scss */
+.col-3 {
+  width: calc(3/12 * 100%);
+}
+
+/* line 24, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_base-grid.scss */
+.col-4 {
+  width: calc(4/12 * 100%);
+}
+
+/* line 28, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_base-grid.scss */
+.col-5 {
+  width: calc(5/12 * 100%);
+}
+
+/* line 32, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_base-grid.scss */
+.col-6 {
+  width: calc(6/12 * 100%);
+}
+
+/* line 36, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_base-grid.scss */
+.col-7 {
+  width: calc(7/12 * 100%);
+}
+
+/* line 40, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_base-grid.scss */
+.col-8 {
+  width: calc(8/12 * 100%);
+}
+
+/* line 44, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_base-grid.scss */
+.col-9 {
+  width: calc(9/12 * 100%);
+}
+
+/* line 48, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_base-grid.scss */
+.col-10 {
+  width: calc(10/12 * 100%);
+}
+
+/* line 52, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_base-grid.scss */
+.col-11 {
+  width: calc(11/12 * 100%);
+}
+
+/* line 56, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_base-grid.scss */
+.col-12 {
+  width: 100%;
+}
+
+@media (--breakpoint-sm) {
+  /* line 4, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_base-grid-sm.scss */
+  .sm-col {
+    float: left;
+    box-sizing: border-box;
+  }
+
+  /* line 9, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_base-grid-sm.scss */
+  .sm-col-right {
+    float: right;
+    box-sizing: border-box;
+  }
+
+  /* line 14, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_base-grid-sm.scss */
+  .sm-col-1 {
+    width: calc(1/12 * 100%);
+  }
+
+  /* line 18, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_base-grid-sm.scss */
+  .sm-col-2 {
+    width: calc(2/12 * 100%);
+  }
+
+  /* line 22, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_base-grid-sm.scss */
+  .sm-col-3 {
+    width: calc(3/12 * 100%);
+  }
+
+  /* line 26, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_base-grid-sm.scss */
+  .sm-col-4 {
+    width: calc(4/12 * 100%);
+  }
+
+  /* line 30, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_base-grid-sm.scss */
+  .sm-col-5 {
+    width: calc(5/12 * 100%);
+  }
+
+  /* line 34, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_base-grid-sm.scss */
+  .sm-col-6 {
+    width: calc(6/12 * 100%);
+  }
+
+  /* line 38, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_base-grid-sm.scss */
+  .sm-col-7 {
+    width: calc(7/12 * 100%);
+  }
+
+  /* line 42, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_base-grid-sm.scss */
+  .sm-col-8 {
+    width: calc(8/12 * 100%);
+  }
+
+  /* line 46, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_base-grid-sm.scss */
+  .sm-col-9 {
+    width: calc(9/12 * 100%);
+  }
+
+  /* line 50, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_base-grid-sm.scss */
+  .sm-col-10 {
+    width: calc(10/12 * 100%);
+  }
+
+  /* line 54, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_base-grid-sm.scss */
+  .sm-col-11 {
+    width: calc(11/12 * 100%);
+  }
+
+  /* line 58, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_base-grid-sm.scss */
+  .sm-col-12 {
+    width: 100%;
+  }
+}
+@media (--breakpoint-md) {
+  /* line 4, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_base-grid-md.scss */
+  .md-col {
+    float: left;
+    box-sizing: border-box;
+  }
+
+  /* line 9, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_base-grid-md.scss */
+  .md-col-right {
+    float: right;
+    box-sizing: border-box;
+  }
+
+  /* line 14, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_base-grid-md.scss */
+  .md-col-1 {
+    width: calc(1/12 * 100%);
+  }
+
+  /* line 18, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_base-grid-md.scss */
+  .md-col-2 {
+    width: calc(2/12 * 100%);
+  }
+
+  /* line 22, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_base-grid-md.scss */
+  .md-col-3 {
+    width: calc(3/12 * 100%);
+  }
+
+  /* line 26, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_base-grid-md.scss */
+  .md-col-4 {
+    width: calc(4/12 * 100%);
+  }
+
+  /* line 30, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_base-grid-md.scss */
+  .md-col-5 {
+    width: calc(5/12 * 100%);
+  }
+
+  /* line 34, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_base-grid-md.scss */
+  .md-col-6 {
+    width: calc(6/12 * 100%);
+  }
+
+  /* line 38, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_base-grid-md.scss */
+  .md-col-7 {
+    width: calc(7/12 * 100%);
+  }
+
+  /* line 42, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_base-grid-md.scss */
+  .md-col-8 {
+    width: calc(8/12 * 100%);
+  }
+
+  /* line 46, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_base-grid-md.scss */
+  .md-col-9 {
+    width: calc(9/12 * 100%);
+  }
+
+  /* line 50, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_base-grid-md.scss */
+  .md-col-10 {
+    width: calc(10/12 * 100%);
+  }
+
+  /* line 54, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_base-grid-md.scss */
+  .md-col-11 {
+    width: calc(11/12 * 100%);
+  }
+
+  /* line 58, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_base-grid-md.scss */
+  .md-col-12 {
+    width: 100%;
+  }
+}
+@media (--breakpoint-lg) {
+  /* line 4, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_base-grid-lg.scss */
+  .lg-col {
+    float: left;
+    box-sizing: border-box;
+  }
+
+  /* line 9, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_base-grid-lg.scss */
+  .lg-col-right {
+    float: right;
+    box-sizing: border-box;
+  }
+
+  /* line 14, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_base-grid-lg.scss */
+  .lg-col-1 {
+    width: calc(1/12 * 100%);
+  }
+
+  /* line 18, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_base-grid-lg.scss */
+  .lg-col-2 {
+    width: calc(2/12 * 100%);
+  }
+
+  /* line 22, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_base-grid-lg.scss */
+  .lg-col-3 {
+    width: calc(3/12 * 100%);
+  }
+
+  /* line 26, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_base-grid-lg.scss */
+  .lg-col-4 {
+    width: calc(4/12 * 100%);
+  }
+
+  /* line 30, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_base-grid-lg.scss */
+  .lg-col-5 {
+    width: calc(5/12 * 100%);
+  }
+
+  /* line 34, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_base-grid-lg.scss */
+  .lg-col-6 {
+    width: calc(6/12 * 100%);
+  }
+
+  /* line 38, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_base-grid-lg.scss */
+  .lg-col-7 {
+    width: calc(7/12 * 100%);
+  }
+
+  /* line 42, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_base-grid-lg.scss */
+  .lg-col-8 {
+    width: calc(8/12 * 100%);
+  }
+
+  /* line 46, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_base-grid-lg.scss */
+  .lg-col-9 {
+    width: calc(9/12 * 100%);
+  }
+
+  /* line 50, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_base-grid-lg.scss */
+  .lg-col-10 {
+    width: calc(10/12 * 100%);
+  }
+
+  /* line 54, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_base-grid-lg.scss */
+  .lg-col-11 {
+    width: calc(11/12 * 100%);
+  }
+
+  /* line 58, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_base-grid-lg.scss */
+  .lg-col-12 {
+    width: 100%;
+  }
+}
+/* Basscss Base Buttons */
+/* line 3, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_base-buttons.scss */
+button,
+.button {
+  font-family: "Lato", "Helvetica Neue", Helvetica, sans-serif;
+  font-size: inherit;
+  font-weight: normal;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  box-sizing: border-box;
+  line-height: 1.125rem;
+  padding: 0.5rem 1rem;
+  margin: 0;
+  height: auto;
+  border: 1px solid transparent;
+  vertical-align: middle;
+  -webkit-appearance: none;
+}
+
+/* line 21, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_base-buttons.scss */
+::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/* line 26, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_base-buttons.scss */
+.button:hover {
+  text-decoration: none;
+}
+
+/* Basscss Base Forms */
+/* line 3, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_base-forms.scss */
+input,
+select,
+textarea,
+fieldset {
+  font-size: 1rem;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+/* line 12, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_base-forms.scss */
+input[type=text],
+input[type=datetime],
+input[type=datetime-local],
+input[type=email],
+input[type=month],
+input[type=number],
+input[type=password],
+input[type=search],
+input[type=tel],
+input[type=time],
+input[type=url],
+input[type=week] {
+  box-sizing: border-box;
+  height: 2.25rem;
+  padding: 0.5rem 0.5rem;
+  vertical-align: middle;
+  -webkit-appearance: none;
+}
+
+/* line 31, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_base-forms.scss */
+select {
+  box-sizing: border-box;
+  line-height: 1.75;
+  padding: 0.5rem 0.5rem;
+}
+
+/* line 37, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_base-forms.scss */
+select:not([multiple]) {
+  height: 2.25rem;
+  vertical-align: middle;
+}
+
+/* line 42, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_base-forms.scss */
+textarea {
+  box-sizing: border-box;
+  line-height: 1.75;
+  padding: 0.5rem 0.5rem;
+}
+
+/* line 48, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_base-forms.scss */
+.fieldset-reset {
+  padding: 0;
+  margin-left: 0;
+  margin-right: 0;
+  border: 0;
+}
+
+/* line 55, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_base-forms.scss */
+.fieldset-reset legend {
+  padding: 0;
+}
+
+/* line 1, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_base-reset.scss */
+body,
+button {
+  margin: 0;
+}
+
+/* line 6, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_base-reset.scss */
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+}
+
+/* line 14, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_base-reset.scss */
+img {
+  max-width: 100%;
+}
+
+/* line 18, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_base-reset.scss */
+svg {
+  max-height: 100%;
+}
+
+/* line 1, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_buttons-blue.scss */
+.button-blue {
+  color: white;
+  background-color: #0076df;
+  border-radius: 3px;
+  transition-duration: .1s;
+  transition-timing-function: ease-out;
+  transition-property: box-shadow, background-color;
+}
+
+/* line 10, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_buttons-blue.scss */
+.button-blue:hover {
+  opacity: .875;
+}
+
+/* line 14, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_buttons-blue.scss */
+.button-blue:active,
+.button-blue.is-active {
+  box-shadow: inset 0 0 0 32px rgba(0, 0, 0, 0.125), inset 0 2px 3px 0 rgba(0, 0, 0, 0.25);
+}
+
+/* line 19, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_buttons-blue.scss */
+.button-blue:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.5), 0 0 1px 4px rgba(0, 118, 223, 0.5);
+}
+
+/* line 24, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_buttons-blue.scss */
+.button-blue:disabled,
+.button-blue.is-disabled {
+  opacity: .5;
+}
+
+/* line 1, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_syntax-highlighting.scss */
+.highlight {
+  -webkit-text-size-adjust: none;
+}
+
+/* line 5, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_syntax-highlighting.scss */
+.highlight .c,
+.highlight .cs,
+.highlight .cm,
+.highlight .cp,
+.highlight .c1 {
+  color: #777;
+  font-style: italic;
+}
+
+/* line 14, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_syntax-highlighting.scss */
+.highlight .k,
+.highlight .kc,
+.highlight .kd,
+.highlight .kn,
+.highlight .kr,
+.highlight .kt,
+.highlight .kp {
+  color: #00369f;
+}
+
+/* line 24, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_syntax-highlighting.scss */
+.highlight .na,
+.highlight .nb,
+.highlight .nc,
+.highlight .no,
+.highlight .nd,
+.highlight .ni,
+.highlight .ne,
+.highlight .nf,
+.highlight .nl,
+.highlight .nn,
+.highlight .nx {
+  color: #333;
+}
+
+/* line 38, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_syntax-highlighting.scss */
+.highlight .mi,
+.highlight .il {
+  color: #009f06;
+}
+
+/* line 43, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_syntax-highlighting.scss */
+.highlight .s,
+.highlight .sb,
+.highlight .sc,
+.highlight .sd,
+.highlight .s2,
+.highlight .s3,
+.highlight .sh,
+.highlight .si,
+.highlight .sx,
+.highlight .sr,
+.highlight .ss,
+.highlight .s1 {
+  color: #f95020;
+}
+
+/* line 58, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_syntax-highlighting.scss */
+.hljs-title,
+.hljs-id,
+.scss .hljs-preprocessor {
+  color: #f95020;
+  font-weight: bold;
+}
+
+/* line 65, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_syntax-highlighting.scss */
+.highlight .k {
+  font-weight: normal;
+}
+
+/* line 69, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_syntax-highlighting.scss */
+.highlight .nc,
+.highlight .no {
+  color: #00369f;
+}
+
+/* line 74, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_syntax-highlighting.scss */
+.highlight .o {
+  color: #00369f;
+  font-weight: normal;
+}
+
+/* line 79, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_syntax-highlighting.scss */
+.highlight .nb {
+  color: #009f06;
+}
+
+/* line 83, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_syntax-highlighting.scss */
+.highlight .sr {
+  color: #009f06;
+}
+
+/* line 87, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_syntax-highlighting.scss */
+.highlight .ss {
+  color: #f92080;
+}
+
+/* line 91, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_syntax-highlighting.scss */
+.hljs-built_in {
+  color: #00369f;
+}
+
+/* line 95, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_syntax-highlighting.scss */
+.hljs-preprocessor,
+.hljs-pragma,
+.hljs-pi,
+.hljs-doctype,
+.hljs-shebang,
+.hljs-cdata {
+  color: #777;
+  font-weight: bold;
+}
+
+/* line 105, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_syntax-highlighting.scss */
+.hljs-deletion {
+  background: #ffdddd;
+}
+
+/* line 109, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_syntax-highlighting.scss */
+.hljs-addition {
+  background: #ddffdd;
+}
+
+/* line 113, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_syntax-highlighting.scss */
+.diff .hljs-change {
+  background: #00369f;
+}
+
+/* line 117, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_syntax-highlighting.scss */
+.hljs-chunk {
+  color: #ccc;
+}
+
+/* Basscss Color Base */
+/* line 3, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_color-base.scss */
+body {
+  color: #333;
+  background-color: white;
+}
+
+/* line 8, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_color-base.scss */
+a {
+  color: #0076df;
+  text-decoration: none;
+}
+
+/* line 13, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_color-base.scss */
+a:hover {
+  text-decoration: underline;
+}
+
+/* line 17, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_color-base.scss */
+pre,
+code {
+  background-color: #eee;
+  border-radius: 3px;
+}
+
+/* line 23, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_color-base.scss */
+hr {
+  border: 0;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: #ccc;
+}
+
+/* Basscss Colors */
+/* line 3, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_colors.scss */
+.dark-gray {
+  color: #333;
+}
+
+/* line 7, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_colors.scss */
+.white {
+  color: white;
+}
+
+/* line 11, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_colors.scss */
+.blue {
+  color: #0076df;
+}
+
+/* line 15, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_colors.scss */
+.mid-gray {
+  color: #777;
+}
+
+/* line 19, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_colors.scss */
+.light-gray {
+  color: #ccc;
+}
+
+/* line 23, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_colors.scss */
+.lighter-gray {
+  color: #eee;
+}
+
+/* line 27, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_colors.scss */
+.red {
+  color: #f95020;
+}
+
+/* line 31, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_colors.scss */
+.green {
+  color: #00cf26;
+}
+
+/* line 35, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_colors.scss */
+.yellow {
+  color: #efcc00;
+}
+
+/* line 39, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_colors.scss */
+.orange {
+  color: #ffcc22;
+}
+
+/* line 43, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_colors.scss */
+.bg-dark-gray {
+  background-color: #333;
+}
+
+/* line 47, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_colors.scss */
+.bg-white {
+  background-color: white;
+}
+
+/* line 51, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_colors.scss */
+.bg-blue {
+  background-color: #0076df;
+}
+
+/* line 55, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_colors.scss */
+.bg-mid-gray {
+  background-color: #777;
+}
+
+/* line 59, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_colors.scss */
+.bg-light-gray {
+  background-color: #ccc;
+}
+
+/* line 63, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_colors.scss */
+.bg-lighter-gray {
+  background-color: #eee;
+}
+
+/* line 67, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_colors.scss */
+.bg-red {
+  background-color: #f95020;
+}
+
+/* line 71, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_colors.scss */
+.bg-green {
+  background-color: #00cf26;
+}
+
+/* line 75, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_colors.scss */
+.bg-yellow {
+  background-color: #efcc00;
+}
+
+/* line 79, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_colors.scss */
+.bg-orange {
+  background-color: #ffcc22;
+}
+
+/* line 83, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_colors.scss */
+.bg-darken-1 {
+  background-color: rgba(0, 0, 0, 0.0625);
+}
+
+/* line 87, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_colors.scss */
+.bg-darken-2 {
+  background-color: rgba(0, 0, 0, 0.125);
+}
+
+/* line 91, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_colors.scss */
+.bg-darken-3 {
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+/* line 95, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_colors.scss */
+.bg-darken-4 {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Basscss Utility Headings */
+/* line 3, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-headings.scss */
+.h00 {
+  font-size: 4rem;
+}
+
+/* line 7, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-headings.scss */
+.h0 {
+  font-size: 3rem;
+}
+
+@media (min-width: 52em) {
+  /* line 12, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-headings.scss */
+  .h00-responsive {
+    font-size: 8vw;
+  }
+
+  /* line 16, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-headings.scss */
+  .h0-responsive {
+    font-size: 6vw;
+  }
+
+  /* line 20, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-headings.scss */
+  .h1-responsive {
+    font-size: 4vw;
+  }
+}
+@media (min-width: 96em) {
+  /* line 26, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-headings.scss */
+  .h00-responsive {
+    font-size: 7.68rem;
+  }
+
+  /* line 30, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-headings.scss */
+  .h0-responsive {
+    font-size: 5.76rem;
+  }
+
+  /* line 34, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-headings.scss */
+  .h1-responsive {
+    font-size: 3.84rem;
+  }
+}
+/* Basscss Utility White Space */
+/* line 3, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-white-space.scss */
+.m0 {
+  margin: 0;
+}
+
+/* line 7, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-white-space.scss */
+.mt0 {
+  margin-top: 0;
+}
+
+/* line 11, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-white-space.scss */
+.mr0 {
+  margin-right: 0;
+}
+
+/* line 15, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-white-space.scss */
+.mb0 {
+  margin-bottom: 0;
+}
+
+/* line 19, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-white-space.scss */
+.ml0 {
+  margin-left: 0;
+}
+
+/* line 23, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-white-space.scss */
+.m1 {
+  margin: 0.5rem;
+}
+
+/* line 27, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-white-space.scss */
+.mt1 {
+  margin-top: 0.5rem;
+}
+
+/* line 31, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-white-space.scss */
+.mr1 {
+  margin-right: 0.5rem;
+}
+
+/* line 35, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-white-space.scss */
+.mb1 {
+  margin-bottom: 0.5rem;
+}
+
+/* line 39, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-white-space.scss */
+.ml1 {
+  margin-left: 0.5rem;
+}
+
+/* line 43, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-white-space.scss */
+.m2 {
+  margin: 1rem;
+}
+
+/* line 47, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-white-space.scss */
+.mt2 {
+  margin-top: 1rem;
+}
+
+/* line 51, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-white-space.scss */
+.mr2 {
+  margin-right: 1rem;
+}
+
+/* line 55, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-white-space.scss */
+.mb2 {
+  margin-bottom: 1rem;
+}
+
+/* line 59, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-white-space.scss */
+.ml2 {
+  margin-left: 1rem;
+}
+
+/* line 63, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-white-space.scss */
+.m3 {
+  margin: 2rem;
+}
+
+/* line 67, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-white-space.scss */
+.mt3 {
+  margin-top: 2rem;
+}
+
+/* line 71, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-white-space.scss */
+.mr3 {
+  margin-right: 2rem;
+}
+
+/* line 75, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-white-space.scss */
+.mb3 {
+  margin-bottom: 2rem;
+}
+
+/* line 79, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-white-space.scss */
+.ml3 {
+  margin-left: 2rem;
+}
+
+/* line 83, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-white-space.scss */
+.m4 {
+  margin: 4rem;
+}
+
+/* line 87, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-white-space.scss */
+.mt4 {
+  margin-top: 4rem;
+}
+
+/* line 91, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-white-space.scss */
+.mr4 {
+  margin-right: 4rem;
+}
+
+/* line 95, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-white-space.scss */
+.mb4 {
+  margin-bottom: 4rem;
+}
+
+/* line 99, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-white-space.scss */
+.ml4 {
+  margin-left: 4rem;
+}
+
+/* line 103, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-white-space.scss */
+.mxn1 {
+  margin-left: -0.5rem;
+  margin-right: -0.5rem;
+}
+
+/* line 108, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-white-space.scss */
+.mxn2 {
+  margin-left: -1rem;
+  margin-right: -1rem;
+}
+
+/* line 113, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-white-space.scss */
+.mxn3 {
+  margin-left: -2rem;
+  margin-right: -2rem;
+}
+
+/* line 118, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-white-space.scss */
+.mxn4 {
+  margin-left: -4rem;
+  margin-right: -4rem;
+}
+
+/* line 123, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-white-space.scss */
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 128, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-white-space.scss */
+.p1 {
+  padding: 0.5rem;
+}
+
+/* line 132, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-white-space.scss */
+.py1 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+/* line 137, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-white-space.scss */
+.px1 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+/* line 142, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-white-space.scss */
+.p2 {
+  padding: 1rem;
+}
+
+/* line 146, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-white-space.scss */
+.py2 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+/* line 151, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-white-space.scss */
+.px2 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+/* line 156, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-white-space.scss */
+.p3 {
+  padding: 2rem;
+}
+
+/* line 160, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-white-space.scss */
+.py3 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+/* line 165, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-white-space.scss */
+.px3 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+/* line 170, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-white-space.scss */
+.p4 {
+  padding: 4rem;
+}
+
+/* line 174, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-white-space.scss */
+.py4 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+/* line 179, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-white-space.scss */
+.px4 {
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+@media (--breakpoint-sm) {
+  /* line 187, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-white-space.scss */
+  .sm-p0 {
+    padding: 0;
+  }
+
+  /* line 188, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-white-space.scss */
+  .sm-pt0 {
+    padding-top: 0;
+  }
+
+  /* line 189, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-white-space.scss */
+  .sm-pr0 {
+    padding-right: 0;
+  }
+
+  /* line 190, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-white-space.scss */
+  .sm-pb0 {
+    padding-bottom: 0;
+  }
+
+  /* line 191, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-white-space.scss */
+  .sm-pl0 {
+    padding-left: 0;
+  }
+
+  /* line 192, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-white-space.scss */
+  .sm-px0 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  /* line 193, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-white-space.scss */
+  .sm-py0 {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  /* line 195, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-white-space.scss */
+  .sm-p1 {
+    padding: var(--space-1);
+  }
+
+  /* line 196, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-white-space.scss */
+  .sm-pt1 {
+    padding-top: var(--space-1);
+  }
+
+  /* line 197, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-white-space.scss */
+  .sm-pr1 {
+    padding-right: var(--space-1);
+  }
+
+  /* line 198, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-white-space.scss */
+  .sm-pb1 {
+    padding-bottom: var(--space-1);
+  }
+
+  /* line 199, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-white-space.scss */
+  .sm-pl1 {
+    padding-left: var(--space-1);
+  }
+
+  /* line 200, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-white-space.scss */
+  .sm-px1 {
+    padding-left: var(--space-1);
+    padding-right: var(--space-1);
+  }
+
+  /* line 201, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-white-space.scss */
+  .sm-py1 {
+    padding-top: var(--space-1);
+    padding-bottom: var(--space-1);
+  }
+
+  /* line 203, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-white-space.scss */
+  .sm-p2 {
+    padding: var(--space-2);
+  }
+
+  /* line 204, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-white-space.scss */
+  .sm-pt2 {
+    padding-top: var(--space-2);
+  }
+
+  /* line 205, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-white-space.scss */
+  .sm-pr2 {
+    padding-right: var(--space-2);
+  }
+
+  /* line 206, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-white-space.scss */
+  .sm-pb2 {
+    padding-bottom: var(--space-2);
+  }
+
+  /* line 207, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-white-space.scss */
+  .sm-pl2 {
+    padding-left: var(--space-2);
+  }
+
+  /* line 208, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-white-space.scss */
+  .sm-px2 {
+    padding-left: var(--space-2);
+    padding-right: var(--space-2);
+  }
+
+  /* line 209, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-white-space.scss */
+  .sm-py2 {
+    padding-top: var(--space-2);
+    padding-bottom: var(--space-2);
+  }
+
+  /* line 211, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-white-space.scss */
+  .sm-p3 {
+    padding: var(--space-3);
+  }
+
+  /* line 212, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-white-space.scss */
+  .sm-pt3 {
+    padding-top: var(--space-3);
+  }
+
+  /* line 213, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-white-space.scss */
+  .sm-pr3 {
+    padding-right: var(--space-3);
+  }
+
+  /* line 214, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-white-space.scss */
+  .sm-pb3 {
+    padding-bottom: var(--space-3);
+  }
+
+  /* line 215, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-white-space.scss */
+  .sm-pl3 {
+    padding-left: var(--space-3);
+  }
+
+  /* line 216, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-white-space.scss */
+  .sm-px3 {
+    padding-left: var(--space-3);
+    padding-right: var(--space-3);
+  }
+
+  /* line 217, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-white-space.scss */
+  .sm-py3 {
+    padding-top: var(--space-3);
+    padding-bottom: var(--space-3);
+  }
+
+  /* line 219, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-white-space.scss */
+  .sm-p4 {
+    padding: var(--space-4);
+  }
+
+  /* line 220, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-white-space.scss */
+  .sm-pt4 {
+    padding-top: var(--space-4);
+  }
+
+  /* line 221, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-white-space.scss */
+  .sm-pr4 {
+    padding-right: var(--space-4);
+  }
+
+  /* line 222, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-white-space.scss */
+  .sm-pb4 {
+    padding-bottom: var(--space-4);
+  }
+
+  /* line 223, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-white-space.scss */
+  .sm-pl4 {
+    padding-left: var(--space-4);
+  }
+
+  /* line 224, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-white-space.scss */
+  .sm-px4 {
+    padding-left: var(--space-4);
+    padding-right: var(--space-4);
+  }
+
+  /* line 225, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-white-space.scss */
+  .sm-py4 {
+    padding-top: var(--space-4);
+    padding-bottom: var(--space-4);
+  }
+}
+@media (--breakpoint-sm) {
+  /* line 232, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-white-space.scss */
+  .sm-m0 {
+    margin: 0;
+  }
+
+  /* line 233, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-white-space.scss */
+  .sm-mt0 {
+    margin-top: 0;
+  }
+
+  /* line 234, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-white-space.scss */
+  .sm-mr0 {
+    margin-right: 0;
+  }
+
+  /* line 235, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-white-space.scss */
+  .sm-mb0 {
+    margin-bottom: 0;
+  }
+
+  /* line 236, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-white-space.scss */
+  .sm-ml0 {
+    margin-left: 0;
+  }
+
+  /* line 237, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-white-space.scss */
+  .sm-mx0 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  /* line 238, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-white-space.scss */
+  .sm-my0 {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  /* line 240, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-white-space.scss */
+  .sm-m1 {
+    margin: var(--space-1);
+  }
+
+  /* line 241, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-white-space.scss */
+  .sm-mt1 {
+    margin-top: var(--space-1);
+  }
+
+  /* line 242, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-white-space.scss */
+  .sm-mr1 {
+    margin-right: var(--space-1);
+  }
+
+  /* line 243, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-white-space.scss */
+  .sm-mb1 {
+    margin-bottom: var(--space-1);
+  }
+
+  /* line 244, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-white-space.scss */
+  .sm-ml1 {
+    margin-left: var(--space-1);
+  }
+
+  /* line 245, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-white-space.scss */
+  .sm-mx1 {
+    margin-left: var(--space-1);
+    margin-right: var(--space-1);
+  }
+
+  /* line 246, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-white-space.scss */
+  .sm-my1 {
+    margin-top: var(--space-1);
+    margin-bottom: var(--space-1);
+  }
+
+  /* line 248, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-white-space.scss */
+  .sm-m2 {
+    margin: var(--space-2);
+  }
+
+  /* line 249, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-white-space.scss */
+  .sm-mt2 {
+    margin-top: var(--space-2);
+  }
+
+  /* line 250, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-white-space.scss */
+  .sm-mr2 {
+    margin-right: var(--space-2);
+  }
+
+  /* line 251, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-white-space.scss */
+  .sm-mb2 {
+    margin-bottom: var(--space-2);
+  }
+
+  /* line 252, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-white-space.scss */
+  .sm-ml2 {
+    margin-left: var(--space-2);
+  }
+
+  /* line 253, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-white-space.scss */
+  .sm-mx2 {
+    margin-left: var(--space-2);
+    margin-right: var(--space-2);
+  }
+
+  /* line 254, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-white-space.scss */
+  .sm-my2 {
+    margin-top: var(--space-2);
+    margin-bottom: var(--space-2);
+  }
+
+  /* line 256, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-white-space.scss */
+  .sm-m3 {
+    margin: var(--space-3);
+  }
+
+  /* line 257, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-white-space.scss */
+  .sm-mt3 {
+    margin-top: var(--space-3);
+  }
+
+  /* line 258, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-white-space.scss */
+  .sm-mr3 {
+    margin-right: var(--space-3);
+  }
+
+  /* line 259, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-white-space.scss */
+  .sm-mb3 {
+    margin-bottom: var(--space-3);
+  }
+
+  /* line 260, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-white-space.scss */
+  .sm-ml3 {
+    margin-left: var(--space-3);
+  }
+
+  /* line 261, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-white-space.scss */
+  .sm-mx3 {
+    margin-left: var(--space-3);
+    margin-right: var(--space-3);
+  }
+
+  /* line 262, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-white-space.scss */
+  .sm-my3 {
+    margin-top: var(--space-3);
+    margin-bottom: var(--space-3);
+  }
+
+  /* line 264, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-white-space.scss */
+  .sm-m4 {
+    margin: var(--space-4);
+  }
+
+  /* line 265, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-white-space.scss */
+  .sm-mt4 {
+    margin-top: var(--space-4);
+  }
+
+  /* line 266, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-white-space.scss */
+  .sm-mr4 {
+    margin-right: var(--space-4);
+  }
+
+  /* line 267, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-white-space.scss */
+  .sm-mb4 {
+    margin-bottom: var(--space-4);
+  }
+
+  /* line 268, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-white-space.scss */
+  .sm-ml4 {
+    margin-left: var(--space-4);
+  }
+
+  /* line 269, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-white-space.scss */
+  .sm-mx4 {
+    margin-left: var(--space-4);
+    margin-right: var(--space-4);
+  }
+
+  /* line 270, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-white-space.scss */
+  .sm-my4 {
+    margin-top: var(--space-4);
+    margin-bottom: var(--space-4);
+  }
+
+  /* line 272, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-white-space.scss */
+  .sm-mxn1 {
+    margin-left: -var(--space-1);
+    margin-right: -var(--space-1);
+  }
+
+  /* line 273, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-white-space.scss */
+  .sm-mxn2 {
+    margin-left: -var(--space-2);
+    margin-right: -var(--space-2);
+  }
+
+  /* line 274, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-white-space.scss */
+  .sm-mxn3 {
+    margin-left: -var(--space-3);
+    margin-right: -var(--space-3);
+  }
+
+  /* line 275, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-white-space.scss */
+  .sm-mxn4 {
+    margin-left: -var(--space-4);
+    margin-right: -var(--space-4);
+  }
+
+  /* line 277, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-white-space.scss */
+  .sm-ml-auto {
+    margin-left: auto;
+  }
+
+  /* line 278, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-white-space.scss */
+  .sm-mr-auto {
+    margin-right: auto;
+  }
+
+  /* line 279, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-white-space.scss */
+  .sm-mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+/* Basscss Utility Typography */
+/* line 3, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-typography.scss */
+.bold {
+  font-weight: bold;
+}
+
+/* line 7, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-typography.scss */
+.regular {
+  font-weight: normal;
+}
+
+/* line 11, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-typography.scss */
+.italic {
+  font-style: italic;
+}
+
+/* line 15, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-typography.scss */
+.caps {
+  text-transform: uppercase;
+  letter-spacing: .2em;
+}
+
+/* line 20, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-typography.scss */
+.left-align {
+  text-align: left;
+}
+
+/* line 24, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-typography.scss */
+.center {
+  text-align: center;
+}
+
+/* line 28, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-typography.scss */
+.right-align {
+  text-align: right;
+}
+
+/* line 32, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-typography.scss */
+.justify {
+  text-align: justify;
+}
+
+/* line 36, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/basscss/_utility-typography.scss */
+.nowrap {
+  white-space: nowrap;
+}
+
+/* line 2, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/_global.scss */
+body {
+  font-family: 'Laila', serif;
+  background: #EFEFEF;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+/* line 11, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/_global.scss */
+h1 {
+  font-weight: 700;
+}
+
+/* line 15, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/_global.scss */
+.fortune {
+  font-weight: 300;
+  background: white;
+}
+
+/* line 21, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/_global.scss */
+.cookie img {
+  max-width: 240px;
+}
+
+/*!
+Animate.css - http://daneden.me/animate
+Licensed under the MIT license - http://opensource.org/licenses/MIT
+
+Copyright (c) 2014 Daniel Eden
+*/
+/* line 8, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/_animations.scss */
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+/* line 15, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/_animations.scss */
+.animated.infinite {
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+
+/* line 20, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/_animations.scss */
+.animated.hinge {
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+}
+
+@-webkit-keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-20px) translate3d(0, 0, 0);
+    -ms-transform: translateY(-20px) translate3d(0, 0, 0);
+    transform: translateY(-20px) translate3d(0, 0, 0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0) translate3d(0, 0, 0);
+    -ms-transform: translateY(0) translate3d(0, 0, 0);
+    transform: translateY(0) translate3d(0, 0, 0);
+  }
+}
+/* line 57, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/_animations.scss */
+.fade-in-down {
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+}
+
+/* line 1, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/_blockquotes.scss */
+blockquote {
+  border-left: 5px solid #7a7a7a;
+  font-style: italic;
+  margin-left: 0.5rem;
+  padding: 0.5rem;
+}
+
+/* line 8, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/_blockquotes.scss */
+blockquote footer {
+  background-color: #fff;
+  border-color: transparent;
+  color: #7a7a7a;
+  font-size: .85rem;
+  font-style: normal;
+  text-align: left;
+  padding: 0;
+}
+
+/* line 1, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/_clearfix.scss */
+.clearfix:before, .clearfix:after {
+  content: ' ';
+  display: table;
+}
+
+/* line 6, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/_clearfix.scss */
+.clearfix:after {
+  clear: both;
+}
+
+/* line 1, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/_measure.scss */
+.measure {
+  margin: 0 auto;
+  max-width: 42rem;
+}
+
+@media screen and (min-width: 32em) {
+  /* line 2, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/_media-queries.scss */
+  html {
+    font-size: 16px;
+  }
+
+  /* line 6, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/_media-queries.scss */
+  h1,
+  .h1 {
+    font-size: 2.998rem;
+  }
+
+  /* line 11, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/_media-queries.scss */
+  .fortune {
+    font-size: 1rem;
+    padding: 0.5rem !important;
+  }
+
+  /* line 16, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/_media-queries.scss */
+  .fortune.p4.m4 {
+    padding: 2rem;
+    margin: 1rem;
+  }
+}
+@media screen and (min-width: 48em) {
+  /* line 24, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/_media-queries.scss */
+  html {
+    font-size: 18px;
+  }
+
+  /* line 28, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/_media-queries.scss */
+  .fortune {
+    font-size: 1.5rem;
+    padding: 0.5rem;
+  }
+}
+@media screen and (min-width: 64em) {
+  /* line 36, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/_media-queries.scss */
+  html {
+    font-size: 20px;
+  }
+
+  /* line 40, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/_media-queries.scss */
+  .fortune {
+    font-size: 2.998rem;
+    padding: 4rem;
+  }
+}
+@media screen and (min-width: 78em) {
+  /* line 47, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/_media-queries.scss */
+  em img {
+    max-width: 56rem;
+    margin-left: -7em;
+  }
+}
+/* line 1, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/_positions.scss */
+.left {
+  float: left;
+}
+
+/* line 5, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/_positions.scss */
+.right {
+  float: right;
+}
+
+/* line 9, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/_positions.scss */
+.block {
+  display: block;
+}
+
+/* line 13, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/_positions.scss */
+.fit {
+  max-width: 100%;
+}
+
+/* line 1, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/_social-icons.scss */
+.social-icons-left, .social-icons-right {
+  text-align: center;
+  float: none;
+}
+
+/* line 6, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/_social-icons.scss */
+.social-icons {
+  font-size: 1.25rem;
+  padding: 0.5em 0 0 0;
+  width: 100%;
+}
+
+/* line 12, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/_social-icons.scss */
+.social-icons a.fa {
+  cursor: pointer;
+  opacity: 0.8;
+  padding: 0.2em;
+}
+
+/* line 18, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/_social-icons.scss */
+.social-icons a.fa:hover {
+  opacity: 1;
+}
+
+/* line 22, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/_social-icons.scss */
+.social-icons iframe[title=Flattr] {
+  position: relative;
+  top: 0.1em;
+}
+
+/* line 1, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/_typography.scss */
+html {
+  font-size: 14px;
+}
+
+/* line 5, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/_typography.scss */
+abbr {
+  border-bottom: 1px black dotted;
+  cursor: help;
+}
+
+/* line 10, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/_typography.scss */
+p {
+  color: #333;
+  line-height: 1.5;
+}
+
+/* line 15, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/_typography.scss */
+small,
+.small {
+  font-size: 0.707rem;
+}
+
+/* line 20, /Users/mattkosoy/Sites/fufortune/app/assets/stylesheets/_typography.scss */
+sup {
+  position: relative;
+  vertical-align: middle;
+  top: -0.9ex;
+}

@@ -12,14 +12,35 @@ h1 {
   font-weight: 700;
 }
 
-.fortune{
-  font-weight: 300;
-  font-size: 3em;
-  background: white;
-}
-
 .cookie {
   img{
     max-width: 240px;
+  }
+}
+
+.fortune{
+  background: white;
+  font-size: $h2;
+}
+
+
+@media screen and (min-width: $viewport-small) {
+  .fortune{ 
+    font-size: $h3;
+  }
+}
+
+
+@media screen and (min-width: $viewport-medium) {
+  .fortune{ 
+    font-size: $h1;
+  }
+}
+
+
+
+@media screen and (min-width: $viewport-large + 14) {
+  .fortune{ 
+    font-size: $h0;
   }
 }
