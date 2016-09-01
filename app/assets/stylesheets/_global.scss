@@ -1,0 +1,25 @@
+
+body{
+  font-family: 'Laila', serif;  
+  background: #EFEFEF;
+          box-sizing: border-box;
+     -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+
+h1 { 
+  font-weight: 700;
+}
+
+.fortune{
+  font-weight: 300;
+  font-size: 3em;
+  background: white;
+}
+
+.cookie {
+  img{
+    max-width: 240px;
+  }
+}
