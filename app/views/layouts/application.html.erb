@@ -6,6 +6,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="description" content="FU.....Fortune">
+<meta property="og:title" content="Fu Fortune" />
+<meta property="og:type" content="fun" />
+<meta property="og:image" content="http://fufortune.herokuapp.com/images/cookie.svg" />
+<meta property="og:url" content="http://fufortune.herokuapp.com" />
+<meta property="og:site_name" content="Fufortune" />
 <link href='https://fonts.googleapis.com/css?family=Laila:600,300' rel='stylesheet'>
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
@@ -13,6 +18,7 @@
 <link rel="manifest" href="/manifest.json">
 <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
 <meta name="theme-color" content="#ffffff">
+
 <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
 <%= csrf_meta_tags %>
 </head>
@@ -50,6 +56,10 @@
     <% end %>    
 
     <%= yield %>
+    
+    <div class="addthis_inline_share_toolbox py4"></div>
+
+    <footer></footer>
 
   </div>
 
@@ -57,5 +67,15 @@
 <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
 <!-- Go to www.addthis.com/dashboard to customize your tools -->
 <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-52fc6baf5c257a1d"></script>
+<script type="text/javascript">
+  var fortune = document.getElementById('the-fortune');
+  var addthis_config = addthis_config||{};
+  addthis_config.data_track_clickback = false;
+  addthis_config.data_track_addressbar = false;
+  var addthis_share = {
+    url: 'http://fufortune.herokuapp.com/fortunes/' + fortune.getAttribute('data-id'),
+    title: "Fu Fortune # " + fortune.getAttribute('data-id'),
+  }
+</script>
 </body>
 </html>
