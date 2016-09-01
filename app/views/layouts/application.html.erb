@@ -56,8 +56,12 @@
     <% end %>    
 
     <%= yield %>
-    
-    <div class="addthis_inline_share_toolbox py4"></div>
+    <div class="addthis_inline_share_toolbox py2"></div>
+    <div class="the clearifx">
+      <div class="col-6  mx-auto the link" id="link">
+      </div>
+    </div>
+
 
     <footer></footer>
 
@@ -76,6 +80,11 @@
     url: 'http://fufortune.herokuapp.com/fortunes/' + fortune.getAttribute('data-id'),
     title: "Fu Fortune # " + fortune.getAttribute('data-id'),
   }
+
+  var link = document.getElementById('link');
+  console.log('link', link);
+  link.innerHTML= '<a href="http://fufortune.herokuapp.com/fortunes/'+fortune.getAttribute('data-id')+'">http://fufortune.herokuapp.com/fortunes/'+fortune.getAttribute('data-id') +'</a>';
+
 </script>
 </body>
 </html>
