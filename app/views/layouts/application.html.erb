@@ -57,11 +57,10 @@
 
     <%= yield %>
     <div class="addthis_inline_share_toolbox py2"></div>
-    <div class="the clearifx">
-      <div class="col-6  mx-auto the link" id="link">
+    <div class="clearifx">
+      <div class="col-6 sm-col-10 mx-auto link" id="link">
       </div>
     </div>
-
 
     <footer></footer>
 
@@ -77,7 +76,7 @@
   addthis_config.data_track_clickback = false;
   addthis_config.data_track_addressbar = false;
   var addthis_share = {
-    url: 'http://fufortune.herokuapp.com/fortunes/' + fortune.getAttribute('data-id'),
+    url: 'http://fufortune.wtf/fortunes/' + fortune.getAttribute('data-id'),
     title: "Fu Fortune # " + fortune.getAttribute('data-id'),
   }
 

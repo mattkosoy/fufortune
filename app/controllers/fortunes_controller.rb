@@ -5,7 +5,7 @@ class FortunesController < ApplicationController
   def index
     @fortune = Fortune.limit(1).order("RANDOM()").first
     if user_signed_in?
-      @fortunes = Fortune.where(user_id: current_user.id);
+      @fortunes = Fortune.order(:created_at);
     end
   end
   
