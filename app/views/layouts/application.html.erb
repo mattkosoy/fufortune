@@ -22,7 +22,7 @@
 <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
 <%= csrf_meta_tags %>
 </head>
-<body>
+<body id="fufortune">
 
   <div class="site-wrap clearfix center ">
     
@@ -81,9 +81,11 @@
   }
 
   var link = document.getElementById('link');
-  console.log('link', link);
   link.innerHTML= '<a href="http://fufortune.wtf/fortunes/'+fortune.getAttribute('data-id')+'">http://fufortune.wtf/fortunes/'+fortune.getAttribute('data-id') +'</a>';
-
+  
+  var rGradient = Math.floor(Math.random() * 3) + 1;
+  document.getElementById('fufortune').classList.add('grd-'+rGradient);
+ 
 </script>
 </body>
 </html>
