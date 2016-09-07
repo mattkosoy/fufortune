@@ -24,7 +24,7 @@
 </head>
 <body id="fufortune">
 
-  <div class="site-wrap clearfix center ">
+  <div class="clearfix center" id="site-wrap">
     
     <header class="site-header px-responsive">
       <div class="mt2 wrap py2 clearfix">
@@ -85,6 +85,7 @@
   
   var rGradient = Math.floor(Math.random() * 3) + 1;
   document.getElementById('fufortune').classList.add('grd-'+rGradient);
+  document.getElementById('site-wrap').classList.add('grd-'+rGradient);
   var root = document.getElementsByTagName( 'html' )[0]; 
   root.setAttribute( 'class', 'bg-'+rGradient );
 
