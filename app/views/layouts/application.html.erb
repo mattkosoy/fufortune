@@ -84,8 +84,8 @@
   link.innerHTML= '<a href="http://fufortune.wtf/fortunes/'+fortune.getAttribute('data-id')+'">http://fufortune.wtf/fortunes/'+fortune.getAttribute('data-id') +'</a>';
   
   var rGradient = Math.floor(Math.random() * 3) + 1;
-  var root = document.getElementsByTagName( 'body' )[0]; 
-  root.setAttribute( 'class', 'bg-'+rGradient );
+  var root = document.getElementById( 'site-wrap' ); 
+  root.classList.add('grd-'+rGradient );
 
 
 </script>

@@ -1,5 +1,9 @@
 html {
   height: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 body{
@@ -15,9 +19,12 @@ body{
   margin: 0;
 }
 
-.site-wrap{
-  height: 100%;
-  background-size: cover;
+html body {
+   min-height: 100%;
+}
+
+#site-wrap{
+  min-height: 100%;
 }
 
 h1 { 
