@@ -15,13 +15,19 @@ body{
   margin: 0;
 }
 
-.site-container{
+.site-wrap{
   height: 100%;
   background-size: cover;
 }
 
 h1 { 
   font-weight: 700;
+  a{
+    color: black;
+    &:hover{
+      text-decoration: line-through;
+    }
+  }
 }
 
 .cookie {

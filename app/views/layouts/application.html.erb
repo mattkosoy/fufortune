@@ -28,13 +28,13 @@
     
     <header class="site-header px-responsive">
       <div class="mt2 wrap py2 clearfix">
-        <h1>Fu Fortune</h1>
+        <h1><a href="/">Fu Fortune</a></h1>
       </div>
 
 
       <div class="clearfix">
         <div class="col-6 pb4 mx-auto cookie">
-           <img class="fit" src="/images/cookie.svg" alt="This the fortune cookie">
+          <a href="/"><img class="fit" src="/images/cookie.svg" alt="This the fortune cookie"></a>
         </div>
       </div>
 
@@ -84,8 +84,7 @@
   link.innerHTML= '<a href="http://fufortune.wtf/fortunes/'+fortune.getAttribute('data-id')+'">http://fufortune.wtf/fortunes/'+fortune.getAttribute('data-id') +'</a>';
   
   var rGradient = Math.floor(Math.random() * 3) + 1;
-  document.getElementById('fufortune').classList.add('grd-'+rGradient);
-  var root = document.getElementsByTagName( 'html' )[0]; 
+  var root = document.getElementsByTagName( 'body' )[0]; 
   root.setAttribute( 'class', 'bg-'+rGradient );
 
 
